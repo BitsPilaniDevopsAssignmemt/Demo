@@ -36,9 +36,6 @@ namespace Demo.Controllers
             .ToArray();
         }
 
-        public string PrintMessage(string msg)
-        {
-            return msg;
-        }
+        public string PrintMessage(string msg) => msg;
     }
 }
